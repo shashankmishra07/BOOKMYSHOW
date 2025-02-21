@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="index.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+</head>
+
+<body>
+
+   <nav id="navbar">
+      <div id="left">
+         <img src="photos/BMS_logo_new.png" alt="">
+         <input type="text" placeholder=" Search for Movies, Events, Plays, Sports and activity">
+      </div>
+      <div id="right">
+         <h4>Betul</h4>
+         <button>Sign In</button>
+         <button>Admin Login</button>
+         <i class="fa-solid fa-bars"></i>
+      </div>
+   </nav>
+
+   <nav id="sec-nav">
+      <div id="s-left">
+         <p>Movies</p>
+         <p>Stream</p>
+         <p>Events</p>
+         <p>Plays</p>
+         <p>Sorts</p>
+         <p>Activities</p>
+         <p>Buzz</p>
+      </div>
+      <div id="s-right">
+         <p>ListYourShow</p>
+         <p>Corporates</p>
+         <p>Offers</p>
+         <p>Gift Cart</p>
+      </div>
+   </nav>
+
+
+   <!-- slider html///////////// -->
+
+   <div id="slider">
+      <div class="swiper mySwiper">
+         <div class="swiper-wrapper">
+         
+           <div class="swiper-slide"><img src="Movie Tickets, Plays, Sports, Events & Cinemas near Rewa - BookMyShow Rewa_/1726036566435_playcardnewweb.jpg" alt=""></div>
+           <div class="swiper-slide"><img src="Movie Tickets, Plays, Sports, Events & Cinemas near Rewa - BookMyShow Rewa_/1739858262243_19thfebsonicthehedgehog3web.jpg" alt=""></div>
+    
+           
+         </div>
+         <div class="swiper-button-next"></div>
+         <div class="swiper-button-prev"></div>
+         <div class="swiper-pagination"></div>
+       </div>
+   </div>
+   <!-- slider html   end///////////// -->
+
+   <section id="hero_section">
+      <span>Recommended Movies</span>
+    
+      <div id="hero_inside_main_div">
+         <div id="onediv">
+            <div id="Chhaava"><img
+                  src="Movie Tickets, Plays, Sports, Events & Cinemas near Rewa - BookMyShow Rewa_/et00408691-wqmumfxjtk-portrait.jpg"
+                  alt=""></div>
+            <div> <i class="fa-solid fa-star" style="color: red;"></i> 9.3/10 105.7k Votes
+               <h3>Chhaava</h3>
+               <p>Action/Drama/Historical</p>
+            </div>
+         </div>
+         <div id="onediv">
+            <div id="Chhaava"><img src="Movie Tickets, Plays, Sports, Events & Cinemas near Rewa - BookMyShow Rewa_/et00399765-lxpecsqysh-portrait.jpg" alt=""></div>
+            <div> <i class="fa-solid fa-star" style="color: red;"></i> 7/10 75.7k Votes
+               <h3>Capton America :Brave <br> New World</h3>
+               <p>Action/Drama/Historical</p></div>
+         </div>
+         <div id="onediv">
+            <div id="Chhaava"> <img src="Movie Tickets, Plays, Sports, Events & Cinemas near Rewa - BookMyShow Rewa_/et00430518-pbbpufjmrb-portrait.jpg" alt=""></div>
+            <div><i class="fa-solid fa-star" style="color: red;"></i> 8.5/10 105.7k Votes
+               <h3>Chhaava</h3>
+               <p>Action/Drama/Historical</p></div>
+         </div>
+         <div id="onediv">
+            <div id="Chhaava"><img src="Movie Tickets, Plays, Sports, Events & Cinemas near Rewa - BookMyShow Rewa_/et00394804-nrqklhybvn-portrait.jpg" alt=""></div>
+            <div> <i class="fa-solid fa-star" style="color: red;"></i> 7.9/10 95.7k Votes
+               <h3>Chhaava</h3>
+               <p>Action/Drama/Historical</p></div>
+         </div>
+      </div>
+   </section>
+
+
+ 
+
+
+<!-- slider script strat///// -->
+ 
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+   <!-- Initialize Swiper -->
+   <script>
+     var swiper = new Swiper(".mySwiper", {
+       slidesPerView: 1,
+       spaceBetween: 30,
+       loop: true,
+       pagination: {
+         el: ".swiper-pagination",
+         clickable: true,
+       },
+       navigation: {
+         nextEl: ".swiper-button-next",
+         prevEl: ".swiper-button-prev",
+       },
+     });
+   </script>
+   
+</body>
+
+</html>
