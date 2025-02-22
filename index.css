@@ -64,6 +64,14 @@
   
    
 }
+#s-left p{
+  color: black;
+}
+#s-right p{
+  color: black;
+}
+
+
 #s-right{
     display: flex;
     gap: 20px;
@@ -96,6 +104,7 @@ padding-top: 30px;
 #hero_section span{
     font-size: 25px;
     font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
     
  
 }
@@ -109,8 +118,17 @@ padding-top: 30px;
   
     
 }
-#onediv{
- 
+#onediv  #foot-write {
+ padding-top: 10px;
+ font-size: 2.4vh;
+}
+#onediv p{
+  color: black;
+}
+
+#foot-write h3{
+padding-bottom: 5px;
+padding-top: 5px;
 }
 #Chhaava img{
    width: 220px;
@@ -161,3 +179,198 @@ html,
     }
 
     /* slider code end//////////// */
+
+    #stream img{
+      width: 85%;
+padding-left: 130px;
+padding-top: 60px;
+    }
+
+
+    /* workshop events start?\ */
+
+    #workshop_section{
+      padding-left: 130px;
+      padding-top: 80px;
+      padding-bottom: 50px;
+      
+    }
+    #workshop_section span{
+      font-size: 25px;
+      padding-bottom: 20px;
+      font-weight: bold;
+      
+    }
+    #worshop_main_div{
+      display: flex;
+      gap: 30px;
+      padding-top: 18px;
+     
+    }
+
+    #worshop_main_div img{
+      width: 240px;
+    }
+
+
+    /* //premiere_section start 65464646 */
+
+    #premiere_section{
+  padding-left: 120px;
+  background-color: rgba(1, 1, 18, 0.862);
+  padding-top: 30px;
+  padding-bottom: 10px;
+
+  
+    }
+    #premiere_section span{
+  font-weight: bold;
+    }
+
+    #premiere_main_div{
+      display: flex;
+      align-items: center;
+      
+      
+      
+    }
+    #premiere_main_div img{
+      width: 150px;
+    }
+
+
+    /* premier movies start 646666 */
+#premiere_movies_section{
+  background-color: rgba(1, 1, 18, 0.862);
+  padding-left: 140px;
+}
+    #premiere_movies_main_div{
+      display: flex;
+      padding-top: 10px;
+      gap: 30px;
+    }
+    
+    #premiere_movies_main_div #one h3, p{
+      color: white;
+
+    }
+    #premiere_movies_main_div #one img{
+    width: 220px;
+    height: 390px;
+    border-radius: 10px;
+    }
+    #one p{
+      padding-top: 10px;
+      padding-bottom: 20px;
+    }
+    #one h3{
+      font-size: 18px;
+      padding-top: 5px;
+ 
+    }
+
+
+    /* music elements stra... */
+
+    #music_section{
+      padding-top: 100px;
+      padding-left: 140px;
+
+    }
+    #music_section span{
+      font-size: 25px;
+      font-weight: bold;
+     
+
+    }
+
+    #music_main_div{
+      display: flex;
+      padding-top: 10px;
+      gap: 30px;
+    }
+
+    #music_main_div #akdiv img{
+      width: 220px;
+      height: 390px;
+      border-radius: 10px;
+    }
+
+
+    /* 2nd slider css start? */
+
+ 
+
+    /* 2nd slid?er end */
+#treading_section{
+padding-left: 140px;
+padding-top: 30px;
+}
+    #frist_main{
+      display: flex;
+      gap: 20px;
+      padding-bottom: 20px;
+    }
+    #second_main{
+      display: flex;
+      gap: 20px;
+      padding-bottom: 20px;
+    }
+    #frist_main #trand{
+      background-color:azure;
+      padding: 10px 10px ;
+    }
+    #second_main #trand{
+      background-color:azure; 
+      padding: 10px 10px;
+    }
+
+    #movies_p p{
+      padding-top: 5px;
+      color: black;
+    }
+    #trand h3{
+      color: rgba(255, 0, 0, 0.942)
+    }
+
+   #fonts_section{
+    display: flex;
+    background-color: gray;
+   padding: 20px 20px;
+ padding-bottom: 10px;
+    justify-content: center;
+    gap: 10px;
+    
+   }
+
+   #fonts_section img{
+   width: 40px;
+   background-color: gray;
+   
+   }
+   #fonts_section div{
+    display: flex;
+    
+  gap: 20px;
+   }
+
+   #fonts_section img:hover{
+background-color: #fff;
+ border-radius: 30px;
+   }
+
+
+   #last_section{
+
+    background-color: gray;
+    text-align: center;
+    padding-top: 20px;
+   }
+
+   #last_section h4{
+    color: gainsboro;
+   }
+
+   #last_logo img{
+    height: 34px;
+   }
