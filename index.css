@@ -45,6 +45,43 @@
     padding: 9px;
     
 }
+ #right button {
+  z-index: 1;
+  position: relative;
+  font-size: inherit;
+  font-family: inherit;
+  color: white;
+  padding: 0.5em 1em;
+  outline: none;
+  border: none;
+  background-color: red;
+  overflow: hidden;
+  transition: color 0.4s ease-in-out;
+}
+
+ #right button::before {
+  content: '';
+  z-index: -1;
+  position: absolute;
+  bottom: 100%;
+  left: 100%;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  background-color: #3cefff;
+  transform-origin: center;
+  transform: translate3d(-50%, 50%, 0) scale3d(0, 0, 0);
+  transition: transform 0.45s ease-in-out;
+}
+
+#right button:hover {
+  cursor: pointer;
+  color: #161616;
+}
+
+ #right button:hover::before {
+  transform: translate3d(-50%, 50%, 0) scale3d(15, 15, 15);
+}
 
 /* second navbar start */
 
@@ -374,3 +411,106 @@ background-color: #fff;
    #last_logo img{
     height: 34px;
    }
+
+   /* signin section strat54666666666666666666666666666666666 */
+
+
+   p{
+    color: black;
+   }
+
+#bd{
+  background-color: cadetblue;
+  /* background-image: url(photos/et00432934-tnygnqmdzm-portrait.jpg); */
+  background-size: cover;
+  mask-repeat: no-repeat;
+  
+}
+
+#sign_up{
+  background-color: white;
+  width: 400px;
+  height: 620px;
+  margin: auto;
+  text-align: center;
+  border-radius: 4px;
+  margin-top: 20px;
+
+}
+h1{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+form{
+  margin-top: 20px;
+   padding-right: 50px;
+   margin-left: 20px;
+  
+}
+form input{
+width:100%;
+border: none;
+border:  1px solid gray;
+padding: 7px;
+border-radius: 6px;
+outline:none;
+}
+form label{
+  font-size: 18px;
+  display: flex;
+  margin-top: 20px;
+
+}
+
+#submit{
+  width: 346px;
+  border-radius: 6px;
+  margin-top: 20px;
+  border: none;
+  background-color: rgb(5, 39, 28);
+  color:white;
+}
+#submit {
+  z-index: 1;
+  position: relative;
+  font-size: inherit;
+  font-family: inherit;
+  color: white;
+  padding: 0.5em 1em;
+  outline: none;
+  border: none;
+  
+  overflow: hidden;
+  transition: color 0.4s ease-in-out;
+}
+
+ #submit::before {
+  content: '';
+  z-index: -1;
+  position: absolute;
+  bottom: 100%;
+  left: 100%;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  background-color: #3cefff;
+  transform-origin: center;
+  transform: translate3d(-50%, 50%, 0) scale3d(0, 0, 0);
+  transition: transform 0.45s ease-in-out;
+}
+
+#submit:hover {
+  cursor: pointer;
+  color: #161616;
+  background-color: #3cefff;
+}
+
+ #submit:hover::before {
+  transform: translate3d(-50%, 50%, 0) scale3d(15, 15, 15);
+}
+p{
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(22, 2, 2);
+  font-size: 17px;
+}
