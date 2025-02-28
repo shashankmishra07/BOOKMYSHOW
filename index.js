@@ -24,8 +24,11 @@ function login(){
 
     
 
-  let semail=localStorage.getItem("s_email")
-  let spass=localStorage.getItem("s_password")
+  let semail=JSON.parse(localStorage.getItem("s_email"))
+  let spass=JSON.parse(localStorage.getItem("s_password"))
+
+  alert(semail);
+  
   
   if (lemail != semail || lpass!=spass) {
     alert("user undefiend")
@@ -33,10 +36,7 @@ function login(){
 }
   
   
-if (data.email != logindata.loginemail || data.password != logindata.loginpassword) {
-    alert("user undefiend")
-    return false
-}
+
 }
 
 // admin data
