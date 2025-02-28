@@ -11,17 +11,17 @@
     <div id="sign_up">
 <h1>Sign Up</h1>
 <h4>It,s Free and Only Takes a Minute</h4>
-<form action="">
+<form action="login.html" id="form" onsubmit="signup()">
     <label for="">Frist Name</label>
-    <input type="text" placeholder="Enter Frist Name">
+    <input type="text" placeholder="Enter Frist Name" id="s_name">
     <label for="">Last Name</label>
-    <input type="text" placeholder="Enter Last Name">
+    <input type="text" placeholder="Enter Last Name" id="s_lname">
     <label for="">Email</label>
-    <input type="email" placeholder="Enter Email">
+    <input type="email" placeholder="Enter Email" id="s_email" >
     <label for="">Password</label>
-    <input type="text" placeholder="Enter Password">
+    <input type="text" placeholder="Enter Password" id="s_pass">
     <label for=""> Confirm Password</label>
-    <input type="text" placeholder="Enter Confirm Password">
+    <input type="text" placeholder="Enter Confirm Password" id="s_cpass">
 
     <input type="submit" id="submit">
 </form>
@@ -29,6 +29,10 @@
  <a href="">Terms and Conditions</a> and <a href="">Policy and Privacy</a> </p>
     </div>
 
-    <p>Already have an account ? <a href="">Login Here</a></p>
+    <p id="sign_p">Already have an account ? <a href="">Login Here</a></p>
+
+    
+
+    <script src="index.js"></script>
 </body>
 </html>

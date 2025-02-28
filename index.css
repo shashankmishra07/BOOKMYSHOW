@@ -420,6 +420,7 @@ background-color: #fff;
    }
 
 #bd{
+  
   background-color: cadetblue;
   /* background-image: url(photos/et00432934-tnygnqmdzm-portrait.jpg); */
   background-size: cover;
@@ -441,13 +442,13 @@ h1{
   padding-top: 20px;
   padding-bottom: 20px;
 }
-form{
+#form{
   margin-top: 20px;
    padding-right: 50px;
    margin-left: 20px;
   
 }
-form input{
+#form input{
 width:100%;
 border: none;
 border:  1px solid gray;
@@ -455,7 +456,7 @@ padding: 7px;
 border-radius: 6px;
 outline:none;
 }
-form label{
+#form label{
   font-size: 18px;
   display: flex;
   margin-top: 20px;
@@ -508,9 +509,121 @@ form label{
  #submit:hover::before {
   transform: translate3d(-50%, 50%, 0) scale3d(15, 15, 15);
 }
-p{
+#sign_up p{
   text-align: center;
   margin-top: 20px;
   color: rgb(22, 2, 2);
   font-size: 17px;
+}
+#sign_p{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 17px;
+}
+
+
+
+/* login page start453466666666666666666666666 */
+
+#login_div{
+  width: 360px;
+  height: 420px;
+  background-color: white;
+  margin: auto;
+  margin-top: 20px;
+  padding: 30px;
+  text-align: center;
+ 
+}
+#login_div h1{
+  
+}
+#login_form label{
+ display: flex;
+ font-size: 18px;
+ padding: 7px;
+margin-top: 10px;
+
+
+}
+
+#login_form input{
+width: 100%;
+border:none;
+border-radius: 6px;
+border: 1px solid gray;
+height: 30px;
+
+
+}
+
+#login_form button{
+  width: 360px;
+  border-radius: 6px;
+  margin-top: 20px;
+  border: none;
+  background-color: rgb(5, 39, 28);
+  color:white;
+  padding: 10px 10px;
+  
+  
+}
+#login_div p{
+  margin-top: 20px;
+  color: rgb(22, 2, 2);
+  font-size: 17px;
+ 
+}
+
+#login_div #p2{
+  margin-top: 10px;
+}
+
+#login_form button:hover{
+  cursor: pointer;
+  color: #161616;
+  background-color: #3cefff;
+}
+
+/* admin code starts 56565666666666666666666666666 */
+#admin_div{
+  width: 530px;
+  height: 450px;
+  background-color: white;
+margin: auto;
+}
+#admin_form{
+padding: 30px;
+font-size: 20px;
+}
+
+#login_form label{
+  display: flex;
+  
+  
+}
+#admin_form input{
+width: 100%;
+border-radius: 6px;
+height: 20px;
+margin-bottom: 20px;
+}
+#admin_div h1{
+ text-align: center;
+   } 
+
+#admin_div button{
+  width: 100%;
+  border-radius: 6px;
+  height: 30px;
+  margin-top: 20px;
+  background-color: rgb(5, 39, 28);
+  color:white;
+ 
+}
+
+#admin_form button:hover{
+  cursor: pointer;
+  color: #161616;
+  background-color: #3cefff;
 }
