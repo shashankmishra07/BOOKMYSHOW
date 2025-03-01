@@ -1,0 +1,67 @@
+{
+  "Booking_data": [
+    {
+      "id": "a7fa",
+      "movie": " a7fa",
+      "date": " a7fa",
+      "time": " a7fa",
+      "ticket": " a7fa"
+    },
+    {
+      "id": "1787",
+      "movie": "dune",
+      "date": "2025-03-12",
+      "time": "12:00 PM",
+      "ticket": ""
+    },
+    {
+      "id": "a552",
+      "movie": "dune",
+      "date": "2025-03-13",
+      "time": "12:00 PM",
+      "ticket": "3"
+    },
+    {
+      "id": "2790",
+      "movie": "dune",
+      "date": "2025-03-08",
+      "time": "6:00 PM",
+      "ticket": "2"
+    },
+    {
+      "id": "f4bc",
+      "movie": "dune",
+      "date": "2025-03-13",
+      "time": "12:00 PM",
+      "ticket": "1"
+    },
+    {
+      "id": "d4fb",
+      "movie": "dune",
+      "date": "2025-03-07",
+      "time": "12:00 PM",
+      "ticket": "1"
+    },
+    {
+      "id": "9844",
+      "movie": "dune",
+      "date": "2025-03-15",
+      "time": "12:00 PM",
+      "ticket": ""
+    },
+    {
+      "id": "dd1a",
+      "movie": "avatar",
+      "date": "2025-03-20",
+      "time": "12:00 PM",
+      "ticket": "1"
+    },
+    {
+      "id": "5733",
+      "movie": "  dunertjty",
+      "date": "  2025-03-06",
+      "time": "  12:00 PM",
+      "ticket": "  5"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body id="book_bd">
+    
+
+    <div id="ticket_div">
+<h1>Movie TicKet Booking</h1>
+<form action="" id="ticket_form" onsubmit="insertdata()">
+    <label for="movie">Select Movie:</label>
+    <select name="movie" id="movie"  class="movie" required >
+                <option value="dune">Dune: Part Two</option>
+                <option value="batman">The Batman</option>
+                <option value="avatar">Avatar 2</option>
+                <option value="oppenheimer">Oppenheimer</option>
+    </select>
+    <label for="date"> Select Date:</label>
+    <input type="date" name="date" required class="date">
+    <label for="time">Select Time</label>
+    <select name="time" class="time">
+        <option value="12:00 PM">12:00 PM</option>
+        <option value="3:00 PM">3:00 PM</option>
+        <option value="6:00 PM">6:00 PM</option>
+        <option value="9:00 PM">9:00 PM</option>
+    </select>
+    <label for="seats">Number Of Ticket</label>
+    <input type="number" name="seats"  min="1" class="ticket">
+    <button type="submit" onclick="finalupdate()">Book Now</button>
+</form>
+    </div>
+
+  
+    <script src="database/database.js"></script>
+</body>
+</html>

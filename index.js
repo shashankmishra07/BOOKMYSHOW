@@ -47,3 +47,14 @@ function admin(){
 
     localStorage.setItem("Admin Email")
 }
+
+
+
+
+// booking code start 5555555555555555555555555555555
+
+
+function booking(){
+   
+
+}
