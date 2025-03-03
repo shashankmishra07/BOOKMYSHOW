@@ -24,29 +24,49 @@ function login(){
 
     
 
-  let semail=JSON.parse(localStorage.getItem("s_email"))
-  let spass=JSON.parse(localStorage.getItem("s_password"))
+  let semail=parent.json(localStorage.getItem("s_email"))
+  let spass=(localStorage.getItem("s_password"))
 
-  alert(semail);
   
   
-  if (lemail != semail || lpass!=spass) {
-    alert("user undefiend")
+  
+//   if (lemail != semail && lpass!=spass) {
+//     alert("user undefiend")
+//     return false
+// }
+
+if(lemail!=semail){
+    alert("Enter Correct Email")
+    return false
+}
+if(lpass!=spass){
+    alert("Enter Correct Password")
     return false
 }
   
-  
+ return false 
 
 }
 
 // admin data
 
 function admin(){
-    let e=document.querySelector("#admin_email").value
-    let p=document.querySelector("#admin_pass").value
+   
+    let admin_email=document.querySelector("#admin_email").value
+    let admin_pass=document.querySelector("#admin_pass").value
 
-    localStorage.setItem("Admin Email")
+    if(admin_email!="admin@123"){
+        alert("Enter Correct Email")
+        return false
+    }
+    if(admin_pass!="123456"){
+        alert("Enter currect Password")
+        return false
+    }
+    
 }
+
+
 
 
 
@@ -58,3 +78,5 @@ function booking(){
    
 
 }
+
+
