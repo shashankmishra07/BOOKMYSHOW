@@ -1,69 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <style>
-    table{
+    table {
         margin: auto;
         margin-top: 50px;
         background-color: rgb(137, 134, 151);
         color: white;
         padding: 10px;
         box-shadow: 3px 1px 4px 1px red;
-       
+
     }
-    thead{
+
+    thead {
         padding: 40px;
         border: 2px solid yellow;
         background-color: rgb(28, 41, 41);
     }
-    th{
+
+    th {
         padding: 20px;
         font-size: 25px;
     }
-    td{
+
+    td {
         padding: 20px;
         font-size: 20px;
     }
 
-    #display{
-       background-color: cornflowerblue; 
-       margin-left: 20px;
-       align-items: center;
-       text-align: center;
+    #display {
+        background-color: cornflowerblue;
+        margin-left: 20px;
+        align-items: center;
+        text-align: center;
 
     }
 
+    #frm {
+        display: flex;
+        justify-content: center;
+     width: 100%;
+    
+    }
+
+    #frm input{
+        width: 152px;
+        background-color: cornflowerblue;
+        align-items: center;
+        text-align: center;
+        font-size: 17px;
+    }
     #showfrm{
-        margin: auto;
-        
+       
     }
 </style>
+
 <body>
-<table border="">
 
-    <thead>
-        <th>ID</th>
-        <th>Movie</th>
-        <th>Date</th>
-        <th>Time</th>
-        <th>Number of Ticket</th>
-        <th>Delete</th>
-        <th>Edit</th>
-        
-    </thead>
-    <tbody id="display">
+    <div id="table_div">
+        <table border="">
 
-    </tbody>
-</table>
-<div id="showfrm">
+            <thead>
+                <th>ID</th>
+                <th>Movie</th>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Number of Ticket</th>
+                <th>Delete</th>
+                <th>Edit</th>
 
-</div>
+            </thead>
+            
+            <tbody id="display">
 
-<script src="database.js"></script>
+           
+            </tbody>
+
+        </table>
+
+        <div id="showfrm">
+
+        </div>
+    </div>
+
+    <script src="database.js"></script>
 
 </body>
+
 </html>

@@ -11,7 +11,7 @@
 
     <div id="ticket_div">
 <h1>Movie TicKet Booking</h1>
-<form action="" id="ticket_form" onsubmit="insertdata()">
+<form action="index.html" id="ticket_form" onsubmit="insertdata()">
     <label for="movie">Select Movie:</label>
     <select name="movie" id="movie"  class="movie" required >
                 <option value="dune">Dune: Part Two</option>
@@ -29,7 +29,7 @@
         <option value="9:00 PM">9:00 PM</option>
     </select>
     <label for="seats">Number Of Ticket</label>
-    <input type="number" name="seats"  min="1" class="ticket">
+    <input type="number" name="seats"  min="1" class="ticket" >
     <button type="submit" onclick="finalupdate()">Book Now</button>
 </form>
     </div>

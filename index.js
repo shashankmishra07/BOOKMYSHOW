@@ -1,69 +1,55 @@
-function signup(){
-    let sname= document.querySelector('#s_name').value
-    let slname= document.querySelector('#s_lname').value
-    let semail= document.querySelector('#s_email').value
-    let spass= document.querySelector('#s_pass').value
-    let scpass= document.querySelector('#s_cpass').value
+function signup() {
+    let user_signup = {
+        sname: document.querySelector('#s_name').value,
+        slname: document.querySelector('#s_lname').value,
+        semail: document.querySelector('#s_email').value,
+        spass: document.querySelector('#s_pass').value,
+        scpass: document.querySelector('#s_cpass').value
+    }
 
-    localStorage.setItem("frist name",sname)
-    localStorage.setItem("last name",slname)
-let email=    localStorage.setItem("s_email",semail)
-let password=  localStorage.setItem("s_password",spass)
-    localStorage.setItem("s_conform_password",scpass)
-    return false
+    localStorage.setItem("user_signup", JSON.stringify(user_signup))
+
+}
+
+let signup_data = JSON.parse(localStorage.getItem("user_signup"))
+console.log(signup_data)
+
+
+function login() {
+    let user_login = {
+        lemail: document.querySelector("#l_email").value,
+        lpass: document.querySelector("#l_pass").value
+    }
+
+    if (signup_data.semail != user_login.lemail || signup_data.spass != user_login.lpass) {
+        alert("User Not Found")
+        return false
+    }
+
 
 
 }
 
-function login(){
-    let lemail=document.querySelector("#l_email").value
-     let lpass=document.querySelector("#l_pass").value
 
 
-   
 
-    
-
-  let semail=parent.json(localStorage.getItem("s_email"))
-  let spass=(localStorage.getItem("s_password"))
-
-  
-  
-  
-//   if (lemail != semail && lpass!=spass) {
-//     alert("user undefiend")
-//     return false
-// }
-
-if(lemail!=semail){
-    alert("Enter Correct Email")
-    return false
-}
-if(lpass!=spass){
-    alert("Enter Correct Password")
-    return false
-}
-  
- return false 
-
-}
 
 // admin data
 
-function admin(){
-   
-    let admin_email=document.querySelector("#admin_email").value
-    let admin_pass=document.querySelector("#admin_pass").value
+function admin() {
 
-    if(admin_email!="admin@123"){
+    let admin_email = document.querySelector("#admin_email").value
+    let admin_pass = document.querySelector("#admin_pass").value
+
+    if (admin_email != "admin@123") {
         alert("Enter Correct Email")
         return false
     }
-    if(admin_pass!="123456"){
+    if (admin_pass != "123456") {
         alert("Enter currect Password")
         return false
     }
-    
+
 }
 
 
@@ -74,8 +60,8 @@ function admin(){
 // booking code start 5555555555555555555555555555555
 
 
-function booking(){
-   
+function booking() {
+
 
 }
 

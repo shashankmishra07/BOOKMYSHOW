@@ -27,6 +27,20 @@
       "date": "2025-03-06",
       "time": "9:00 PM",
       "ticket": "3"
+    },
+    {
+      "id": "89bc",
+      "movie": " oppenheimer",
+      "date": " 2025-03-06",
+      "time": " 12:00 PM",
+      "ticket": " 1"
+    },
+    {
+      "id": "a2e2",
+      "movie": "      dune",
+      "date": "      2025-03-01",
+      "time": "      6:00 PM",
+      "ticket": "      5"
     }
   ]
 }

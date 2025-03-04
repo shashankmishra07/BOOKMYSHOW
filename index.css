@@ -420,12 +420,14 @@ background-color: #fff;
     color: black;
    }
 
-#bd{
+#sign_bd{
   
   background-color: cadetblue;
-  /* background-image: url(photos/et00432934-tnygnqmdzm-portrait.jpg); */
+  background-image: url(railway-station-1016981_1280.jpg);
+  filter: blur();
   background-size: cover;
   mask-repeat: no-repeat;
+  
   
 }
 

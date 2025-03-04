@@ -54,8 +54,8 @@ async function myedit(id){
     let fdata= await edata.json()
 
     let frm=`
-    <div>
-    <input type="text" value=" ${fdata.id}" id="id1" style="margin-top:50px";> <br> </br>
+    <div id="frm">
+    <input type="text" value=" ${fdata.id}" id="id1"> <br> </br>
     <input type="text" value=" ${fdata.movie}" id="movie1"> <br> </br>
     <input type="text" value=" ${fdata.date}" id="date1"> <br> </br>
     <input type="text" value=" ${fdata.time}" id="time1"> <br> </br>
