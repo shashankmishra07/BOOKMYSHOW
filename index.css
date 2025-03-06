@@ -824,7 +824,7 @@ button:hover {
 
 
 /* Large Mobile View */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 90px) {
     /* Further adjustments for very small screens */
     #left img {
         width: 100px;
