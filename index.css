@@ -716,7 +716,7 @@ button:hover {
    /* responsive code navbar //////////////////
 
    /* Mobile view */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 580px) {
     /* Adjust Navbar */
     #navbar {
         flex-direction: column;
@@ -822,46 +822,6 @@ button:hover {
 
 }
 
-
-/* Large Mobile View */
-@media screen and (max-width: 90px) {
-    /* Further adjustments for very small screens */
-    #left img {
-        width: 100px;
-    }
-
-    #left input {
-        width: 70%;
-        height: 35px;
-    }
-
-    #right {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #right button {
-        width: 100%;
-        padding: 12px;
-        margin-bottom: 5px;
-    }
-
-    /* Stack the second navbar items */
-    #sec-nav {
-        flex-direction:column;
-        align-items: center;
-    }
-
-    #s-left, #s-right {
-        flex-direction: column;
-        margin: 10px 0;
-    }
-
-    #s-left p, #s-right p {
-        font-size: 14px;
-        padding: 8px;
-    }
-}
 
 
 
