@@ -118,9 +118,7 @@
 
 /* container */
 
-#container{
-    
-}
+
 
  #container #cards{
     display: flex;
@@ -424,7 +422,7 @@ background-color: #fff;
   
   background-color: cadetblue;
   background-image: url(railway-station-1016981_1280.jpg);
-  filter: blur();
+
   background-size: cover;
   mask-repeat: no-repeat;
   
@@ -432,13 +430,15 @@ background-color: #fff;
 }
 
 #sign_up{
-  background-color: white;
+  background-color: rgba(128, 128, 128, 0.905);
+  color: #120101;
   width: 400px;
   height: 620px;
   margin: auto;
   text-align: center;
   border-radius: 4px;
   margin-top: 20px;
+
 
 }
 h1{
@@ -528,6 +528,12 @@ outline:none;
 
 /* login page start453466666666666666666666666 */
 
+#login_bd{
+  background-image: url(photo-1618044619888-009e412ff12a.avif);
+  background-size: cover;
+  mask-repeat: no-repeat;
+}
+
 #login_div{
   width: 360px;
   height: 420px;
@@ -536,11 +542,9 @@ outline:none;
   margin-top: 20px;
   padding: 30px;
   text-align: center;
- 
+
 }
-#login_div h1{
-  
-}
+
 #login_form label{
  display: flex;
  font-size: 18px;
@@ -660,10 +664,7 @@ margin-bottom: 20px;
     color: white;
   
 }
-#ticket_form{
 
-  
-}
 #ticket_form input{
  width: 100%;
  padding: 10px;
@@ -712,95 +713,155 @@ button:hover {
 
 /* responsive code */
 
+   /* responsive code navbar //////////////////
 
-/* Tablet */
-@media (max-width: 768px) {
-  #navbar {
+   /* Mobile view */
+@media screen and (max-width: 768px) {
+    /* Adjust Navbar */
+    #navbar {
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #left {
+        justify-content: center;
+        gap: 10px;
+        width: 70%;
+        margin-bottom: 10px;
+      
+    }
+
+    #left input {
+        width: 80%; /* Make input take most of the screen width */
+    }
+
+    #right {
+        justify-content: center;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    #right button {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    /* Stack second navbar vertically */
+    #sec-nav {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    #s-left, #s-right {
+        flex-direction: column;
+        margin: 10px 0;
+        flex-wrap: wrap;
+        text-align: center;
+        margin-left: 60px;
+    }
+
+    #s-left p, #s-right p {
+        font-size: 14px;
+        padding: 5px;
+        margin-right: 34px;
+        
+    }
+
+    #hero_section{
       flex-direction: column;
-      margin-left: 0;
-      margin-right: 0;
-  }
+    }
 
-  #left input {
+    #hero_inside_main_div{
+      flex-wrap: wrap;
+    }
+
+    #stream{
+      width: 80%;
+    }
+    #workshop_section{
+      flex-wrap: wrap;
+    }
+    #worshop_main_div{
+      flex-wrap: wrap;
+    }
+
+    #premiere_section{
+      flex-direction: column;
+      width: 60%;
+  margin-left: 120px;
+     
+    
+    }
+    #premiere_main_div img{
+      flex-direction: column;
       width: 100%;
-      height: 35px;
-  }
+      
+    }
 
-  #right {
-      flex-direction: column;
-      align-items: flex-start;
-  }
 
-  #cards {
-      flex-direction: column;
-      align-items: center;
-  }
 
-  #hero_inside_main_div {
-      flex-direction: column;
-  }
+    #premiere_movies_section{
+  
+      width: 57%;
+      margin-left: 120px;
 
-  #worshop_main_div {
-      flex-direction: column;
-  }
 
-  #premiere_main_div {
+    }
+    #premiere_movies_main_div{
+      flex-wrap: wrap;
+    }
+    #music_section{
       flex-direction: column;
-  }
+    }
 
-  #music_main_div {
-      flex-direction: column;
-  }
+    #music_main_div{
+      flex-wrap: wrap;
+    }
 
-  #frist_main,
-  #second_main {
-      flex-direction: column;
-  }
-
-  #fonts_section {
-      flex-direction: column;
-  }
 }
 
-/* Mobile */
-@media (max-width: 480px) {
-  #navbar {
-      margin-left: 20px;
-      margin-right: 20px;
-  }
 
-  #left input {
-      width: 100%;
-      height: 35px;
-  }
+/* Large Mobile View */
+@media screen and (max-width: 480px) {
+    /* Further adjustments for very small screens */
+    #left img {
+        width: 100px;
+    }
 
-  #left img {
-      width: 100px;
-  }
+    #left input {
+        width: 70%;
+        height: 35px;
+    }
 
-  #right button {
-      width: 100%;
-      padding: 10px;
-  }
+    #right {
+        flex-direction: column;
+        align-items: center;
+    }
 
-  #cards img {
-      width: 200px;
-      height: 300px;
-  }
+    #right button {
+        width: 100%;
+        padding: 12px;
+        margin-bottom: 5px;
+    }
 
-  #hero_section {
-      padding-left: 20px;
-      padding-top: 20px;
-  }
+    /* Stack the second navbar items */
+    #sec-nav {
+        flex-direction:column;
+        align-items: center;
+    }
 
-  #onediv  #foot-write {
-      font-size: 2vh;
-  }
+    #s-left, #s-right {
+        flex-direction: column;
+        margin: 10px 0;
+    }
 
-  #Chhaava img {
-      width: 100%;
-      height: auto;
-  }
-
-  /* Adjustments for any additional sections like workshop, music, etc. can be added here */
+    #s-left p, #s-right p {
+        font-size: 14px;
+        padding: 8px;
+    }
 }
+
+
+
