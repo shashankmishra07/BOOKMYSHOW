@@ -855,6 +855,22 @@ align-items: center;
 }
 
 
+
+
+/* login section start */
+
+
+
+#login_form input{
+  width: 100%;
+  
+  
+  
+  }
+
+  #login_form {
+    width: 100%;
+  }
  
 }
 
