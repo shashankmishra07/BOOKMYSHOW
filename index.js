@@ -66,3 +66,14 @@ function booking() {
 }
 
 
+
+
+
+
+// navbar
+
+document.querySelector('.fa-bars').addEventListener('click', function() {
+    // Toggle a class to show the second navbar
+    document.getElementById('sec-nav').classList.toggle('show-nav');
+});
+
