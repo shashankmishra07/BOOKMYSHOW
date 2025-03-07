@@ -827,6 +827,23 @@ padding-bottom: 20px;
   flex-wrap: wrap;
 }
 
+#treading_section{
+padding-left: 10px;
+align-items: center;
+
+}
+
+
+
+#frist_main{
+  flex-direction: column-reverse;
+ 
+}
+
+#second_main{
+  flex-direction: column;
+}
+
 
  
 }
