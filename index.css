@@ -725,7 +725,7 @@ button:hover {
       margin-right: 20px; 
      margin-bottom: 20px;
      gap: 20px;
-     width: 80%;
+   
   }
 
   #left input {
@@ -852,30 +852,36 @@ align-items: center;
 }
 
 #last_section{
-  flex-wrap: wrap;
+padding-top: 20px;
+  
+}
+
+#last_section h4{
+
+
+  text-align: center;
+  color: black;
+ 
 }
 
 
 
 
-/* login section start */
+/* admin section start */
+
+#admin_div{
+  width: 80%;
+  background-image: url(img.jpg);
+  mask-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(3, 75, 75);
+}
 
 
 
-#login_form input{
-  width: 100%;
-  
-  
-  
-  }
 
-  #login_form {
-    flex-wrap: wrap;
-  }
 
-  #login_form button{
-    width: 100%;
-  }
+
  
 }
 
